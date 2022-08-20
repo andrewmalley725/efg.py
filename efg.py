@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('shots_data.csv').to_dict('records')
+df = pd.read_csv('./data/shots_data.csv').to_dict('records')
 stats = []
 teams = []
 totals = []
